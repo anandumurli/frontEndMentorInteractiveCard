@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive card details form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="main">
+
+  <div class="card_holder">
+    <div class="card card_front">
+      <div class="card_icon"></div>
+      <div class="card_face">
+        <div class="card_no">
+          0000 0000 0000 0000
+        </div>
+        <div class="card_bottom">
+          <div class="card_name">
+              Jane Appleseed
+          </div>
+          <div class="card_exp">
+              00/00
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card card_back">
+      <div class="card_cvv">000</div>
+    </div>
+  </div>
+
+  <div class="form_holder">
+    <div class="form">
+      <div class="form_item">
+        <label for="name">Cardholder Name</label>
+        <input type="text" name="name" id="name" placeholder="e.g. Jane Appleseed">
+      </div>
+      <div class="form_item">
+        <label for="number">Card Number</label>
+        <input type="text" name="number" id="number" placeholder="e.g. 1234 5678 9123 0000">
+      </div>
+      <div class="single_line">
+        <div class="form_item exp_date">
+          <label for="exp_month">Exp. Date(MM/YY)</label>
+          <div class="inputs">
+            <input type="text" name="exp_month" id="exp_month" placeholder="MM">
+            <input type="text" name="exp_year" id="exp_year" placeholder="YY">
+          </div>
+        </div>
+        <div class="form_item">
+          <label for="cvv">CVV</label>
+          <input type="text" name="cvv" id="css" placeholder="e.g. 123">
+        </div>
+      </div>
+      <div class="button">
+        Confirm
+      </div>
+    </div>
+  </div>
+
+</div>
+  
+
+  <!-- Completed state start -->
+
+  <!-- Thank you!
+  We've added your card details
+  Continue -->
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script src="index.js" defer></script>
+</body>
+</html>
